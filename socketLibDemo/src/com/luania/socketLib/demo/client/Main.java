@@ -1,6 +1,8 @@
 package com.luania.socketLib.demo.client;
 
+import com.luania.socketLib.client.SocketClient;
 import com.luania.socketLib.client.listener.SocketClientListenerAdapter;
+import com.luania.socketLib.contract.SocketContract;
 import com.luania.socketLib.demo.CustomHead;
 
 public class Main {

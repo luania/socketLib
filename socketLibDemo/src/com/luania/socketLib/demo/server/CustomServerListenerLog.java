@@ -3,7 +3,7 @@ package com.luania.socketLib.demo.server;
 import com.luania.socketLib.server.listener.SocketServerListener;
 import com.luania.socketLib.demo.CustomHead;
 
-public class ServerListenerLog implements SocketServerListener<CustomHead> {
+public class CustomServerListenerLog implements SocketServerListener<CustomHead> {
     @Override
     public void serverStart(int i) {
         System.out.println("serverStart");

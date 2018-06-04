@@ -1,6 +1,5 @@
 package com.luania.socketLib.demo;
 
-
 import com.luania.socketLib.contract.Head;
 
 public class CustomHead implements Head {

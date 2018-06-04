@@ -9,6 +9,7 @@ import com.luania.socketLib.server.SocketServerDelegate;
 public class CustomServer extends SocketServer<CustomHead> {
     public CustomServer(int port, SocketServerDelegate<CustomHead> socketDelegate) {
         super(port, socketDelegate);
+        addListener(new CustomServerListenerLog());
     }
 
     @Override
