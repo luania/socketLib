@@ -9,6 +9,7 @@ public class CustomClient extends SocketClient<CustomHead> {
     public CustomClient(String command, String message) {
         super(new CustomHead(command), message);
         addListener(new CustomClientListenerLog());
+        addListener(new CustomClientListenerProgress());
     }
 
     @Override
