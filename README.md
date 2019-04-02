@@ -1,3 +1,5 @@
+[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
+
 The library supposed that every request consist of a head and a body,
 the head contains the body's length.  
 
